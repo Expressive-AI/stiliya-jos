@@ -64,12 +64,21 @@ export default function Navbar() {
             </li>
           ))}
           <li className="flex items-center gap-1">
-            <img
-              src="/logo.png"
-              alt="Expressive AI logo"
-              className="w-5 h-5"
-            />
-            <span className="text-xs text-slate-600">Built with Expressive AI</span>
+            <a
+              href="https://expressiveai.in"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit Expressive AI"
+              className="inline-flex items-center gap-1 hover:underline underline-offset-4"
+              title="Built with Expressive AI"
+            >
+              <img
+                src="/logo.png"
+                alt="Expressive AI logo"
+                className="w-5 h-5"
+              />
+              <span className="text-xs text-slate-600">Built with Expressive AI</span>
+            </a>
           </li>
         </ul>
       </nav>
@@ -91,14 +100,23 @@ export default function Navbar() {
             </li>
           ))}
           <li className="flex items-center gap-2 px-2">
-            <img
-              src="/logo.png"
-              alt="Expressive AI logo"
-              className="w-5 h-5"
-            />
-            <span className="text-sm text-slate-600">
-              Built with Expressive AI
-            </span>
+            <a
+              href="https://expressiveai.in"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit Expressive AI"
+              className="inline-flex items-center gap-2 hover:underline underline-offset-4"
+              title="Built with Expressive AI"
+            >
+              <img
+                src="/logo.png"
+                alt="Expressive AI logo"
+                className="w-5 h-5"
+              />
+              <span className="text-sm text-slate-600">
+                Built with Expressive AI
+              </span>
+            </a>
           </li>
         </ul>
       </div>

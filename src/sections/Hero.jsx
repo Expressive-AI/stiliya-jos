@@ -63,10 +63,17 @@ export default function Hero() {
             Every person has the ability to grow and succeed. I provide compassionate,
             client-centered care to support self-development, healing, and emotional wellness.
           </p>
-          <div className="mt-8">
-            <a className="btn relative inline-flex items-center overflow-hidden" href="#about">
-              <span className="absolute inset-0 bg-gradient-to-r from-purple-600 to-indigo-600 opacity-75 blur-md transition-all duration-300 group-hover:opacity-100 group-hover:blur-lg" />
+          <div className="mt-8 flex flex-wrap gap-3">
+            <a className="btn group relative inline-flex items-center overflow-hidden rounded-md px-4 py-2" href="#about">
+              <span className="absolute inset-0 z-0 bg-gradient-to-r from-purple-600 to-indigo-600 opacity-75 blur-md transition-all duration-300 group-hover:opacity-100 group-hover:blur-lg" />
               <span className="relative z-10 text-white">Learn More</span>
+            </a>
+            <a
+              className="group relative inline-flex items-center gap-2 rounded-md px-4 py-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:from-indigo-600 hover:via-purple-600 hover:to-pink-600 "
+              href="/StiliyaJosK.docx"
+              download
+            >
+              <span className="relative z-10 font-semibold text-white">Download CV</span>
             </a>
           </div>
         </MotionDiv>

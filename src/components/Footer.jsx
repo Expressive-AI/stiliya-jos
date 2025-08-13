@@ -64,14 +64,21 @@ export default function Footer() {
       <div className="border-t border-slate-200">
         <div className="container-edge py-4 flex items-center justify-between text-xs text-slate-600">
           <span>© 2025 Stiliya Jos K</span>
-          <span className="flex items-center gap-1">
+          <a
+            href="https://expressiveai.in"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Expressive AI"
+            className="inline-flex items-center gap-1 hover:underline underline-offset-4"
+            title="Built with Expressive AI"
+          >
             <img
               src="/logo.png"
               alt="Expressive AI logo"
               className="w-4 h-4"
             />
-            Built with Expressive AI
-          </span>
+            <span>Built with Expressive AI</span>
+          </a>
         </div>
       </div>
     </footer>
