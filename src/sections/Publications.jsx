@@ -55,7 +55,7 @@ const publications = [
       ),
       (
         <>
-          <span className="authors">Antony, J. M., & Jos, K. S. (2025).</span>{' '}
+          <span className="authors">Jos, K. S., & Antony, J. M. (2025).</span>{' '}
           <em className="title">Effectiveness of Spiritual Intelligence–Based Intervention on Nursing Students’ Mental Health</em>.{' '}
           <span className="journal">122nd Annual National Conference of Indian Psychiatric Society (Psychotherapeutics).</span>
         </>
