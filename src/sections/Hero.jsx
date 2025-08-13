@@ -53,7 +53,7 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="order-2 md:order-1 z-10"
         >
-          <h1 className="name-display relative inline-block bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+          <h1 className="name-display relative inline-block whitespace-nowrap leading-tight tracking-tight text-xl sm:text-3xl md:text-4xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
             Stiliya Jos K
           </h1>
           <p className="mt-3 text-lg text-slate-800">

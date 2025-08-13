@@ -6,7 +6,7 @@ const MotionLi = motion.li
 
 const education = [
   { title: 'Ph.D. Scholar in Psychology', place: 'Christ University, Bengaluru, Karnataka', years: '2020 – 2025' },
-  { title: 'M.Sc. Psychological Counselling', place: 'Indian Institute for Psychological Research & Bharathiar University, Coimbatore, Tamil Nadu', years: '2018 – 2019' },
+  { title: 'M.Sc. Psychological Counselling', place: 'Indian Institute of Psychology and Research (IIPR)', years: '2018 – 2019' },
   { title: 'B.A. Psychology, English Literature & Sociology', place: 'Jyoti Nivas College Autonomous, Bengaluru, Karnataka', years: '2015 – 2017' },
   { title: '12th Class', place: 'Jyoti Nivas College Autonomous, Bengaluru, Karnataka', years: '2011 – 2012' },
   { title: '10th Class', place: 'CJMAHSS Varandarappilly, Kerala Board', years: '2007' },

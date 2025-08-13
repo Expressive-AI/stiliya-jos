@@ -41,7 +41,7 @@ const publications = [
     items: [
       (
         <>
-          <span className="authors">Antony, J. M., & Jos, K. S. (2022).</span>{' '}
+          <span className="authors">Jos, K. S., & Antony, J. M. (2022).</span>{' '}
           <em className="title">Influence of Spiritual Intelligence during COVID-19 Pandemic</em>.{' '}
           <span className="journal">MANODARPAN 2022.</span>
         </>
